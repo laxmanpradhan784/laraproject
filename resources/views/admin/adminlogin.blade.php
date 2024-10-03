@@ -6,8 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>get user name here</h1>
-    <h1>User name : {{$name}}</h1>
-    <h1>{{rand()}}</h1>
+    <h1>this admin login</h1>
 </body>
 </html>

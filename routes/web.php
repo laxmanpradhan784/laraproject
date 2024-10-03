@@ -34,8 +34,10 @@ Route::get('/about/{name}', function ($name) {
 
 // Route::redirect('/welcome','/index');
 
-Route::get('user',[UserController::class,'getUser']);
-Route::get('use',[UserController::class,'getadmin']);
-Route::get('about',[UserController::class,'aboutuser']);
-Route::get('name',[UserController::class,'username']);
-Route::get('nam/{name}',[UserController::class,'usern']);
+Route::get('user', [UserController::class, 'getUser']);
+Route::get('use', [UserController::class, 'getadmin']);
+Route::get('about', [UserController::class, 'aboutuser']);
+Route::get('name', [UserController::class, 'username']);
+Route::get('nam/{name}', [UserController::class, 'usern']);
+Route::get('na', [UserController::class, 'admin']);
+Route::get('reg', [UserController::class, 'register']);
